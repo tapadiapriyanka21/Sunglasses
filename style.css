@@ -1,0 +1,21 @@
+h3{
+    font-size: 25px !important;
+}
+.btn-success:hover{
+    background-color: #f3e800;
+    color: orchid;
+    font-weight: bold;
+}
+    canvas{
+        animation-name: sapna;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+    }
+@keyframes sapna {
+    from{box-shadow: 10px 10px 50px red;}
+    to{box-shadow: 10px 10px 50px yellow ;}
+}
+body{
+    background-size: cover;
+    background-position: center;
+}
